@@ -1,6 +1,12 @@
-import "./Home.scss";
-const Home = () => {
-    return <div>Home</div>;
-};
+import Banner from './Banner/Banner'
+import './Home.scss'
 
-export default Home;
+const Home = () => {
+  return (
+    <div className='home'>
+      <Banner />
+    </div>
+  )
+}
+
+export default Home
